@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cene - Flip</title>
+  <!-- Copyright (c) 2017 by Shane Heyns (https://codepen.io/shaneheyns/pen/OPWGry) -->
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <meta name="viewport" content="width=device-width">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  	<div class="pricing-container">
+		<div class="pricing-switcher">
+			<p class="fieldset">
+				<input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
+				<label for="monthly-1">Sa Smeštajem</label>
+				<input type="radio" name="duration-1" value="yearly" id="yearly-1">
+				<label for="yearly-1">Bez Smeštaja</label>
+				<span class="switch"></span>
+			</p>
+		</div>
+		<ul class="pricing-list bounce-invert">
+			
+			<li class="exclusive">
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2>Sa Smeštajem</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value">600</span>
+								<span class="duration">radionice</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>U cenu uključeno</em></li>
+                <li>3 noćenja u Hotelu Savamala Bad & Breakfast</li>
+								<li>Doručak, Ručak i večera</li>
+								<li>Prevoz do sale i povratak do hotela</li>
+								<li>Oprema i prateći materijal za rad</li>
+								<li>Prisustvovanje svim predavanjima</li>
+								<li>Pokloni sponzora radionice (Canon, Nikon, Premier..)</li>
+                <li>Diploma o pohađanju radionioce</li>
+                <li></li>
+                <li></li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Prijavi Se !</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>Bez Smeštaja</h2>
+							<div class="price">
+								<span class="currency">€</span>
+								<span class="value">500</span>
+								<span class="duration">radionice</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<ul class="pricing-features">
+                <li><em>U cenu uključeno</em></li>
+                <li>Ručak i večera</li>
+                <li>Prevoz do sale i povratak do hotela</li>
+                <li>Oprema i prateći materijal za rad</li>
+                <li>Prisustvovanje svim predavanjima</li>
+                <li>Pokloni sponzora radionice (Canon, Nikon, Premier..)</li>
+                <li>Diploma o pohađanju radionioce</li>
+                <li><em>U cenu nije uključeno</em></li>
+                <li>Doručak i noćenje u hotelu</li>
+              </ul>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+
+			
+		</ul>
+	</div>
+  <!-- JQuery -->
+  <script src='js/jquery.min.js'></script>
+  <!-- Glavna / Main script -->
+  <script  src="js/index.js"></script>
+
+</body>
+</html>

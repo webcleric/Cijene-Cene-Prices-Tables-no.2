@@ -121,6 +121,8 @@ a {
     font-size: 1.4rem;
     color: #ffffff;
     font-weight: 400;
+        border: 1px #ff000000 solid;
+    border-radius: 20px;
 }
 
 .pricing-switcher .switch {

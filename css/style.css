@@ -626,6 +626,14 @@ body .container .card_inner__cta button:hover {
     border-radius: 0 0 4px 4px;
 }
 
+/* Contact Form */
+
+.kontaktforma {
+  margin: 0.5em auto;
+  width: 90%;
+    max-width: 1170px;
+    margin: 4em auto;
+}
 
 /* Keyframes, the boring part */
 @-webkit-keyframes rotate {

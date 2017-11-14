@@ -399,10 +399,10 @@ a {
 }
 
 .pricing-header h2 {
-    font-size: 2.8rem;
-    letter-spacing: 6px;
-    color: #f2b674;
-    font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 6px;
+  color: #f2b674;
+  font-weight: 600;
 }
 
 .currency,
@@ -631,7 +631,7 @@ body .container .card_inner__cta button:hover {
 
 .fa-paper-plane {
   font-size: 2.8rem;
-  color: #f2b674
+  color: #e28726;
 }
 
 .col-100 {
@@ -676,7 +676,7 @@ body .container .card_inner__cta button:hover {
   height: 40px;
   border: none;
   background: none;
-  border-bottom: 2px solid #f2b674;
+  border-bottom: 2px solid #e28726;
   padding: 0 0.25rem;
   font-size: 2rem;
   color: rgb(255, 255, 255);
@@ -701,7 +701,7 @@ select#select-region {
     height: 40px;
     line-height: 40px;
     font-size: 1.2em;
-    color: rgb(242, 182, 116);
+    color: rgb(230, 130, 20);
     padding: 0px 0.25rem;
     background-color: #262626;
     border-radius: 25px;
@@ -738,7 +738,7 @@ select#select-region {
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
 }
 .btn {
-  background: #f2b67496;
+  background: #e28726;
     color: #fff;
     font-size: 2.2rem;
     padding: 0.75rem 2rem;

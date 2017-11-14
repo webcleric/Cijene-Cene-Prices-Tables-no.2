@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Cene - Flip</title>
+  <title>Cene - Luxworkshops</title>
   <meta name="viewport" content="width=device-width">
 
   <!-- Copyright (c) 2017 by Shane Heyns (https://codepen.io/shaneheyns/pen/OPWGry) -->
@@ -47,14 +47,14 @@
 						<div class="pricing-body">
 							<ul class="pricing-features">
 								<li><em>U cenu uključeno</em></li>
-                <li>3 noćenja u Hotelu Savamala Bad & Breakfast</li>
+                				<li>3 noćenja u Hotelu Savamala Bad & Breakfast</li>
 								<li>Doručak, Ručak i večera</li>
 								<li>Prevoz do studija i povratak do hotela</li>
 								<li>Oprema i prateći materijal za rad</li>
 								<li>Prisustvovanje svim predavanjima</li>
 								<li>Pokloni sponzora radionice</li>
-                <li>Diploma o pohađanju radionioce</li>
-                
+								<li><span><em></em></span></li>
+                				<li>Diploma o pohađanju radionioce</li>
 							</ul>
 						</div>
 						<footer class="pricing-footer">
@@ -72,17 +72,15 @@
 						</header>
 						<div class="pricing-body">
 							<ul class="pricing-features">
-								<ul class="pricing-features">
-                <li><em>U cenu uključeno</em></li>
-                <li>Ručak i večera</li>
-                <li>Prevoz do sale i povratak do hotela</li>
-                <li>Oprema i prateći materijal za rad</li>
-                <li>Prisustvovanje svim predavanjima</li>
-                <li>Pokloni sponzora radionice</li>
-                <li>Diploma o pohađanju radionioce</li>
-                <li><em>U cenu nije uključeno</em></li>
-                <li>Doručak i noćenje u hotelu</li>
-              </ul>
+		                		<li><em>U cenu uključeno</em></li>
+		                		<li>Ručak i večera</li>
+		                		<li>Prevoz do sale i povratak do hotela</li>
+		                		<li>Oprema i prateći materijal za rad</li>
+		                		<li>Prisustvovanje svim predavanjima</li>
+		                		<li>Pokloni sponzora radionice</li>
+		                		<li>Diploma o pohađanju radionioce</li>
+		                		<li><em>U cenu nije uključeno</em></li>
+		                		<li>Doručak i noćenje u hotelu</li>
 							</ul>
 						</div>
 						<footer class="pricing-footer">
@@ -96,38 +94,33 @@
 		</ul>
 	</div>
 	
-		<div id="kontakt" class="kontaktforma"> 
-				<form id="contact-form" class="form cf">
+		<div id="kontakt" class="kontaktforma">
+			<!-- Pocetak Forma -->
+			<form action="forma.php" method="post" id="contact-form" class="form cf">
 			<h3 class="heading col-100"><i class="fa fa-paper-plane" aria-hidden="true"></i> Pošaljite Prijavu !</h3>
 
 			<div class="col cf">
-
 				<div class="form-row cf">
-					<label for="input-name">Ime i Prezime: *</label>
-					<input type="text" name="input-name" id="input-name">
+					<label for="name">Ime i Prezime: *</label>
+					<input type="text" name="name" id="input-name">
 				</div>
-
 				<div class="form-row cf">
-					<label for="input-company">Grad i Država: *</label>
-					<input type="text" name="input-company" id="input-company">
+					<label for="townandcity">Grad i Država: *</label>
+					<input type="text" name="townandcity" id="input-city">
 				</div>
-
-
 				<div class="form-row cf">
-					<label for="input-email">E-mail: *</label>
-					<input type="text" name="input-email" id="input-email">
+					<label for="email">E-mail: *</label>
+					<input type="text" name="email" id="input-email">
 				</div>
 			</div>
 
 			<div class="col cf">
-
 				<div class="form-row cf">
-					<label for="input-phone">Telefon: *</label>
-					<input type="text" name="input-phone" id="input-phone">
+					<label for="phone">Telefon: *</label>
+					<input type="text" name="phone" id="input-phone">
 				</div>
-
 				<div class="form-row cf">
-					<label for="select-region">Sa ili bez smejštaja: *</label>
+					<label for="select-region">Sa ili bez smeštaja: *</label>
 					<select id="select-region" name="select-region">
 						<option value=""></option>
 						<option value="Americas">Sa Smeštajem</option>
@@ -136,7 +129,6 @@
 					<input type="submit" name="submit" value="Pošalji !" class="btn send-btn">
 				</div>
 			</div>
-			
 			<!-- <div class="form-row col-100 cf">
 				<label for="textarea-message">Poruka: *</label>
 				<textarea id="textarea-message" name="textarea-message"></textarea>
@@ -147,6 +139,16 @@
 			</div> -->
 		</form>
 	</div>
+	<div class="header_menu">
+<nav>
+  <ul>
+    <li>
+      <a href="https://leonbijelic.com/luxworkshop/">Poseti LuxWorkshops</a>
+    </li>
+    
+  </ul>
+</nav>
+</div>
   <!-- JQuery -->
   <script src='js/jquery.min.js'></script>
   <!-- Glavna / Main script -->

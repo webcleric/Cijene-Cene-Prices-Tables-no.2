@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Cene - Flip</title>
+  <meta name="viewport" content="width=device-width">
+
   <!-- Copyright (c) 2017 by Shane Heyns (https://codepen.io/shaneheyns/pen/OPWGry) -->
 
+  <!-- Fonts -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Flip Funckions -->
   <script src="js/modernizr.min.js"></script>
-  <meta name="viewport" content="width=device-width">
+  
   
   
       <link rel="stylesheet" href="css/style.css">
@@ -52,7 +58,7 @@
 							</ul>
 						</div>
 						<footer class="pricing-footer">
-							<a class="select" href="http://leonbijelic.com/luxworkshop#kontaktforma">Prijavi Se !</a>
+							<a class="select" href="#kontakt">Prijavi Se !</a>
 						</footer>
 					</li>
 					<li data-type="yearly" class="is-hidden">
@@ -80,7 +86,7 @@
 							</ul>
 						</div>
 						<footer class="pricing-footer">
-							<a class="select" href="http://leonbijelic.com/luxworkshop#kontaktforma">Prijavi Se !</a>
+							<a class="select" href="#kontakt">Prijavi Se !</a>
 						</footer>
 					</li>
 				</ul>
@@ -89,10 +95,57 @@
 			
 		</ul>
 	</div>
-	<div class="kontaktkt">
-		<div class="kontaktforma">
-			<h2>Pošalji Prijavu</h2>
-		</div>
+	
+		<div id="kontakt" class="kontaktforma"> 
+				<form id="contact-form" class="form cf">
+			<h3 class="heading col-100"><i class="fa fa-paper-plane" aria-hidden="true"></i> Pošaljite Prijavu !</h3>
+
+			<div class="col cf">
+
+				<div class="form-row cf">
+					<label for="input-name">Ime i Prezime: *</label>
+					<input type="text" name="input-name" id="input-name">
+				</div>
+
+				<div class="form-row cf">
+					<label for="input-company">Grad i Država: *</label>
+					<input type="text" name="input-company" id="input-company">
+				</div>
+
+
+				<div class="form-row cf">
+					<label for="input-email">E-mail: *</label>
+					<input type="text" name="input-email" id="input-email">
+				</div>
+			</div>
+
+			<div class="col cf">
+
+				<div class="form-row cf">
+					<label for="input-phone">Telefon: *</label>
+					<input type="text" name="input-phone" id="input-phone">
+				</div>
+
+				<div class="form-row cf">
+					<label for="select-region">Sa ili bez smejštaja: *</label>
+					<select id="select-region" name="select-region">
+						<option value=""></option>
+						<option value="Americas">Sa Smeštajem</option>
+						<option value="Asia Pacific">Bez Smeštaja</option>
+					</select>
+					<input type="submit" name="submit" value="Pošalji !" class="btn send-btn">
+				</div>
+			</div>
+			
+			<!-- <div class="form-row col-100 cf">
+				<label for="textarea-message">Poruka: *</label>
+				<textarea id="textarea-message" name="textarea-message"></textarea>
+			</div>  -->
+			
+			<!-- <div class="form-row col-100 cf"> 
+				<input type="submit" name="submit" value="Pošalji !" class="btn send-btn">
+			</div> -->
+		</form>
 	</div>
   <!-- JQuery -->
   <script src='js/jquery.min.js'></script>

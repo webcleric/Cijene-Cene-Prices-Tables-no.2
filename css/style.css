@@ -70,9 +70,35 @@ a {
 	text-decoration: none;
 }
 
+.uslovi {
+  text-align: center;
+  margin-bottom: 3em;
+  margin-top:3em;
+}
 
+.uslovi > h2 > em {
+    /* padding-bottom: 1em; */
+    /* font-size: 1em !important; */
+    font-size: 25px;
+    color: #da873a;
+    margin-bottom: 10px !important;
+}
 
-.header_menu {
+.pitanja {
+    margin: 0px;
+    position: relative;
+    top: 48px;
+    border-bottom: 1px solid #ffffff38;
+    font-family: serif;
+    color: #9a9a9a;
+}
+
+.pitanja > h4 > a {
+    color: #da873a;
+    margin: 0px;
+}
+
+.menu {
   height:100%;
 }
 

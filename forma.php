@@ -1,4 +1,4 @@
-<?
+<?php
     // Metoda post
     $name = $_POST ('imeiprezime');
     $townandcity = $_POST ('gradidrzava');

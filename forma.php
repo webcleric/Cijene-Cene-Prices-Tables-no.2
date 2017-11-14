@@ -5,5 +5,9 @@
     $email = $_POST ('email');
     $phone = $_POST ('telefon');
     // Izvuci podatke
+    echo $name;
+    echo $townandcity;
+    echo $email;
+    echo $phone;
     // Procesuj informacije i posalji ih
  ?>

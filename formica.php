@@ -12,6 +12,8 @@
     $oprema = $_POST['oprema'];
     $izaberi = $_POST['izaberi'];
     
+    // Ispise informacije (Test Environment)
+
     /*
     echo $imeiprezime;
     echo $gradidrzava;
@@ -52,7 +54,7 @@
         </script>
     <?php } else { ?>
     <script language="javascript" type="text/javascript">
-        alert('Message not sent. Please, notify the site administrator admin@admin.com');
+        alert('Poruka Nije poslata. Molimo vas da se javite na  leon@leonbijelic.com ili nas nazvati na : +387 65 49 13 13 (Leon)');
         window.location = 'http://www.luxworkshops.co';
     </script>
     <?php

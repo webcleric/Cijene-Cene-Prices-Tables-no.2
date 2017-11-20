@@ -13,8 +13,8 @@
 
     // Konstruiše naslov pošte i pošalje
     
-    $mail_to = 'leon@leonbijelic.com'; // Specifiše email
-    $subject = 'Poslano sa kontakt forme na luxworkshops.co/cene od: ' . $imeiprezime;
+    $mail_to = 'email@some.com'; // Specifiše email
+    $subject = 'Poslano sa kontakt forme na # od: ' . $imeiprezime;
     
     // Ispise informacije (Test Environment)
 
@@ -65,14 +65,14 @@
         if ($mail_status) { ?>
       <script language="javascript" type="text/javascript">
             alert('Hvala na prijavi. Kontaktirat ćemo vas uskoro.');
-            document.location = 'http://www.luxworkshops.co'
+            document.location = '#'
         </script>
     <?php
     }
     else { ?>
         <script language="javascript" type="text/javascript">
-            alert('Poruka Nije poslata. Molimo vas da se javite na  leon@leonbijelic.com ili nas nazvati na : +387 65 49 13 13 (Leon)');
-            document.location = 'http://www.luxworkshops.co'
+            alert('Poruka Nije poslata. Molimo vas da se javite na  leon@leonbijelic.com ili nas nazvati na : +00 11 222 3333 444444 (Someone)');
+            document.location = '#'
         </script>
     <?php
     }

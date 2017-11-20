@@ -13,7 +13,7 @@
 
     // Konstruiše naslov pošte i pošalje
     
-    $mail_to = 'nikolasavic@outlook.com'; // Specifiše email
+    $mail_to = 'leon@leonbijelic.com'; // Specifiše email
     $subject = 'Poslano sa kontakt forme na luxworkshops.co/cene od: ' . $imeiprezime;
     
     // Ispise informacije (Test Environment)
@@ -55,8 +55,9 @@
     
 
     // Konstruiše Zaglavlje
-    $headers = 'From: ' . $imeiprezime . "\r\n";
-    $headers .= 'Reply-To: ' . $email . "\r\n";
+    $headers .= 'Od: ' . $imeiprezime . "\r\n";
+    $headers .= 'Content-type: text/html; charset=UTF-8;' . "\r\n" .
+    $headers .= 'Odgovori: ' . $email . "\r\n";
 
     $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
